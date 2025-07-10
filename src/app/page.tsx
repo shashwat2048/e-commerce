@@ -1,13 +1,21 @@
-import Image from "next/image";
-import { IoSearchSharp } from "react-icons/io5";
-import { LuShoppingCart } from "react-icons/lu";
+import Card from "@/components/card";
+import { products } from "@/constants/data";
 
 export default function Home() {
+  
   return (
-    <main>
-      <div className="w-60 min-h-80 bg-amber-300">
-        <h2>Item Title</h2>
+    <main className="w-full flex flex-col justify-center items-center">
+      <h1 className="text-4xl font-bold m-2 text-center">Products</h1>
+      <div className="w-fit grid grid-cols-4 gap-5 p-5 m-2">
+      {
+        products.map(p => {
+          return(
+            <Card p={p} key={p.id}/>
+          );
+        })
+      }
       </div>
+
     </main>
   );
 }
