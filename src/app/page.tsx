@@ -4,8 +4,10 @@ import { LuShoppingCart } from "react-icons/lu";
 
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <main>
+      <div className="w-60 min-h-80 bg-amber-300">
+        <h2>Item Title</h2>
+      </div>
+    </main>
   );
 }

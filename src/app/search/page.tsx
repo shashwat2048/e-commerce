@@ -8,7 +8,7 @@ export default function SearchPage({ searchParams }: SearchPageProps) {
     const query = searchParams.q;
     return (
         <div>
-            Showing results for query :
+            Showing results for query : {query}
         </div>
     )
 }
