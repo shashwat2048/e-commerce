@@ -1,18 +1,19 @@
 import { products } from "@/constants/data";
 import Image from "next/image"; 
+import { notFound } from "next/navigation";
 type PageProps =  {
     params:{
         id : string,
     }
 }
 export default async function Page({params}:PageProps){
-    let prod = await params;
+    const prod = await params;
     const id = parseInt(prod.id);
     const item = products.find(function(p){
         if(p.id == id) return p;
     })
     if (!item) {
-        return <div>Product not found</div>;
+        notFound();
       }
 
     return(
