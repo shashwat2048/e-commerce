@@ -2,6 +2,7 @@ import { products } from "@/constants/data";
 import Image from "next/image"; 
 import { notFound } from "next/navigation";
 import { PageProps } from "../../../../.next/types/app/products/[id]/page";
+import AddToCartBtn from "@/components/addToCartBtn";
 type ProductProps =  {
     params:{
         id : string,
@@ -56,10 +57,7 @@ export default async function Page({params}:ProductProps){
             </div>
   
             <div className="mt-6 text-2xl font-semibold text-gray-900">${item.price}</div>
-  
-            <button className="mt-6 px-6 py-2 bg-pink-600 text-white rounded-full hover:bg-pink-700 transition">
-              Add to Cart
-            </button>
+            <AddToCartBtn item={item}/>
           </div>
         </div>
       </div>

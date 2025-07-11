@@ -6,4 +6,6 @@ export interface ProductObj {
     price: number;
     thumbnail: string;
     category: string;
+    inCart: boolean;
+    quantity: number;
 }

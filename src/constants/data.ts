@@ -8,7 +8,10 @@ export const products: ProductObj[] = [
             "rating": 2.56,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "beauty"
+
           },
           {
             "id": 2,
@@ -17,6 +20,8 @@ export const products: ProductObj[] = [
             "rating": 2.86,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "beauty"
           },
           {
@@ -26,6 +31,8 @@ export const products: ProductObj[] = [
             "rating": 4.64,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "beauty"
           },
           {
@@ -35,6 +42,8 @@ export const products: ProductObj[] = [
             "rating": 4.36,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "beauty"
           },
           {
@@ -44,6 +53,8 @@ export const products: ProductObj[] = [
             "rating": 4.32,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "beauty"
           },
           {
@@ -53,6 +64,8 @@ export const products: ProductObj[] = [
             "rating": 4.37,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "fragrances"
           },
           {
@@ -62,6 +75,8 @@ export const products: ProductObj[] = [
             "rating": 4.26,
             "price": 129.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "fragrances"
           },
           {
@@ -71,6 +86,8 @@ export const products: ProductObj[] = [
             "rating": 3.8,
             "price": 89.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "fragrances"
           },
           {
@@ -80,6 +97,8 @@ export const products: ProductObj[] = [
             "rating": 3.96,
             "price": 69.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "fragrances"
           },
           {
@@ -89,6 +108,8 @@ export const products: ProductObj[] = [
             "rating": 2.74,
             "price": 79.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "fragrances"
           },
           {
@@ -98,6 +119,8 @@ export const products: ProductObj[] = [
             "rating": 4.77,
             "price": 1899.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "furniture"
           },
           {
@@ -107,6 +130,8 @@ export const products: ProductObj[] = [
             "rating": 3.92,
             "price": 2499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "furniture"
           },
           {
@@ -116,6 +141,8 @@ export const products: ProductObj[] = [
             "rating": 2.87,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "furniture"
           },
           {
@@ -125,6 +152,8 @@ export const products: ProductObj[] = [
             "rating": 4.88,
             "price": 499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "furniture"
           },
           {
@@ -134,6 +163,8 @@ export const products: ProductObj[] = [
             "rating": 3.59,
             "price": 799.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "furniture"
           },
           {
@@ -143,6 +174,8 @@ export const products: ProductObj[] = [
             "rating": 4.19,
             "price": 1.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -152,6 +185,8 @@ export const products: ProductObj[] = [
             "rating": 4.47,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -161,6 +196,8 @@ export const products: ProductObj[] = [
             "rating": 3.13,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -170,6 +207,8 @@ export const products: ProductObj[] = [
             "rating": 3.19,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -179,6 +218,8 @@ export const products: ProductObj[] = [
             "rating": 4.8,
             "price": 4.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -188,6 +229,8 @@ export const products: ProductObj[] = [
             "rating": 4.07,
             "price": 1.49,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -197,6 +240,8 @@ export const products: ProductObj[] = [
             "rating": 4.55,
             "price": 10.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -206,6 +251,8 @@ export const products: ProductObj[] = [
             "rating": 2.53,
             "price": 2.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -215,6 +262,8 @@ export const products: ProductObj[] = [
             "rating": 3.78,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -224,6 +273,8 @@ export const products: ProductObj[] = [
             "rating": 3.25,
             "price": 1.29,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -233,6 +284,8 @@ export const products: ProductObj[] = [
             "rating": 3.66,
             "price": 0.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -242,6 +295,8 @@ export const products: ProductObj[] = [
             "rating": 3.97,
             "price": 6.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -251,6 +306,8 @@ export const products: ProductObj[] = [
             "rating": 3.39,
             "price": 5.49,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -260,6 +317,8 @@ export const products: ProductObj[] = [
             "rating": 3.94,
             "price": 3.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -269,6 +328,8 @@ export const products: ProductObj[] = [
             "rating": 4.93,
             "price": 2.49,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -278,6 +339,8 @@ export const products: ProductObj[] = [
             "rating": 3.53,
             "price": 0.79,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/lemon/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -287,6 +350,8 @@ export const products: ProductObj[] = [
             "rating": 2.61,
             "price": 3.49,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/milk/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -296,6 +361,8 @@ export const products: ProductObj[] = [
             "rating": 4.95,
             "price": 4.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/mulberry/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -305,6 +372,8 @@ export const products: ProductObj[] = [
             "rating": 4.82,
             "price": 7.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -314,6 +383,8 @@ export const products: ProductObj[] = [
             "rating": 4.81,
             "price": 2.29,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/potatoes/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -323,6 +394,8 @@ export const products: ProductObj[] = [
             "rating": 4.18,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -332,6 +405,8 @@ export const products: ProductObj[] = [
             "rating": 4.2,
             "price": 1.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -341,6 +416,8 @@ export const products: ProductObj[] = [
             "rating": 3.18,
             "price": 5.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/rice/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -350,6 +427,8 @@ export const products: ProductObj[] = [
             "rating": 4.75,
             "price": 1.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -359,6 +438,8 @@ export const products: ProductObj[] = [
             "rating": 3.08,
             "price": 3.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/strawberry/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -368,6 +449,8 @@ export const products: ProductObj[] = [
             "rating": 2.69,
             "price": 2.49,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -377,6 +460,8 @@ export const products: ProductObj[] = [
             "rating": 4.96,
             "price": 0.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/water/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "groceries"
           },
           {
@@ -386,6 +471,8 @@ export const products: ProductObj[] = [
             "rating": 3.16,
             "price": 59.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "home-decoration"
           },
           {
@@ -395,6 +482,8 @@ export const products: ProductObj[] = [
             "rating": 4.53,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "home-decoration"
           },
           {
@@ -404,6 +493,8 @@ export const products: ProductObj[] = [
             "rating": 4.67,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "home-decoration"
           },
           {
@@ -413,6 +504,8 @@ export const products: ProductObj[] = [
             "rating": 3.01,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "home-decoration"
           },
           {
@@ -422,6 +515,8 @@ export const products: ProductObj[] = [
             "rating": 3.55,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "home-decoration"
           },
           {
@@ -431,6 +526,8 @@ export const products: ProductObj[] = [
             "rating": 3.27,
             "price": 7.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -440,6 +537,8 @@ export const products: ProductObj[] = [
             "rating": 4.46,
             "price": 5.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -449,6 +548,8 @@ export const products: ProductObj[] = [
             "rating": 3.9,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -458,6 +559,8 @@ export const products: ProductObj[] = [
             "rating": 4.56,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -467,6 +570,8 @@ export const products: ProductObj[] = [
             "rating": 4.05,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -476,6 +581,8 @@ export const products: ProductObj[] = [
             "rating": 3.7,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -485,6 +592,8 @@ export const products: ProductObj[] = [
             "rating": 4.63,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -494,6 +603,8 @@ export const products: ProductObj[] = [
             "rating": 3.09,
             "price": 6.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -503,6 +614,8 @@ export const products: ProductObj[] = [
             "rating": 4.11,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -512,6 +625,8 @@ export const products: ProductObj[] = [
             "rating": 3.04,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -521,6 +636,8 @@ export const products: ProductObj[] = [
             "rating": 3.11,
             "price": 3.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -530,6 +647,8 @@ export const products: ProductObj[] = [
             "rating": 4.02,
             "price": 4.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -539,6 +658,8 @@ export const products: ProductObj[] = [
             "rating": 3.21,
             "price": 10.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -548,6 +669,8 @@ export const products: ProductObj[] = [
             "rating": 3.86,
             "price": 34.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -557,6 +680,8 @@ export const products: ProductObj[] = [
             "rating": 4.71,
             "price": 5.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -566,6 +691,8 @@ export const products: ProductObj[] = [
             "rating": 3.09,
             "price": 7.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -575,6 +702,8 @@ export const products: ProductObj[] = [
             "rating": 3.26,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -584,6 +713,8 @@ export const products: ProductObj[] = [
             "rating": 4.93,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -593,6 +724,8 @@ export const products: ProductObj[] = [
             "rating": 4.82,
             "price": 89.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -602,6 +735,8 @@ export const products: ProductObj[] = [
             "rating": 2.64,
             "price": 15.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -611,6 +746,8 @@ export const products: ProductObj[] = [
             "rating": 2.79,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -620,6 +757,8 @@ export const products: ProductObj[] = [
             "rating": 3.65,
             "price": 3.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -629,6 +768,8 @@ export const products: ProductObj[] = [
             "rating": 4.42,
             "price": 6.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -638,6 +779,8 @@ export const products: ProductObj[] = [
             "rating": 3.22,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -647,6 +790,8 @@ export const products: ProductObj[] = [
             "rating": 3.4,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -656,6 +801,8 @@ export const products: ProductObj[] = [
             "rating": 4.87,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -665,6 +812,8 @@ export const products: ProductObj[] = [
             "rating": 4.03,
             "price": 4.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -674,6 +823,8 @@ export const products: ProductObj[] = [
             "rating": 4.62,
             "price": 16.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -683,6 +834,8 @@ export const products: ProductObj[] = [
             "rating": 2.92,
             "price": 11.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -692,6 +845,8 @@ export const products: ProductObj[] = [
             "rating": 4.24,
             "price": 5.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "kitchen-accessories"
           },
           {
@@ -701,6 +856,8 @@ export const products: ProductObj[] = [
             "rating": 3.65,
             "price": 1999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "laptops"
           },
           {
@@ -710,6 +867,8 @@ export const products: ProductObj[] = [
             "rating": 3.95,
             "price": 1799.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "laptops"
           },
           {
@@ -719,6 +878,8 @@ export const products: ProductObj[] = [
             "rating": 4.98,
             "price": 1399.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "laptops"
           },
           {
@@ -728,6 +889,8 @@ export const products: ProductObj[] = [
             "rating": 2.86,
             "price": 1099.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "laptops"
           },
           {
@@ -737,6 +900,8 @@ export const products: ProductObj[] = [
             "rating": 2.67,
             "price": 1499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "laptops"
           },
           {
@@ -746,6 +911,8 @@ export const products: ProductObj[] = [
             "rating": 3.64,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shirts"
           },
           {
@@ -755,6 +922,8 @@ export const products: ProductObj[] = [
             "rating": 3.18,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shirts"
           },
           {
@@ -764,6 +933,8 @@ export const products: ProductObj[] = [
             "rating": 3.46,
             "price": 34.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shirts"
           },
           {
@@ -773,6 +944,8 @@ export const products: ProductObj[] = [
             "rating": 2.9,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shirts"
           },
           {
@@ -782,6 +955,8 @@ export const products: ProductObj[] = [
             "rating": 2.72,
             "price": 27.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shirts"
           },
           {
@@ -791,6 +966,8 @@ export const products: ProductObj[] = [
             "rating": 4.77,
             "price": 149.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shoes"
           },
           {
@@ -800,6 +977,8 @@ export const products: ProductObj[] = [
             "rating": 3.88,
             "price": 79.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shoes"
           },
           {
@@ -809,6 +988,8 @@ export const products: ProductObj[] = [
             "rating": 4.9,
             "price": 89.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shoes"
           },
           {
@@ -818,6 +999,8 @@ export const products: ProductObj[] = [
             "rating": 4.77,
             "price": 119.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shoes"
           },
           {
@@ -827,6 +1010,8 @@ export const products: ProductObj[] = [
             "rating": 4.69,
             "price": 109.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-shoes"
           },
           {
@@ -836,6 +1021,8 @@ export const products: ProductObj[] = [
             "rating": 4.19,
             "price": 89.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -845,6 +1032,8 @@ export const products: ProductObj[] = [
             "rating": 3.87,
             "price": 1499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -854,6 +1043,8 @@ export const products: ProductObj[] = [
             "rating": 4.97,
             "price": 8999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -863,6 +1054,8 @@ export const products: ProductObj[] = [
             "rating": 2.58,
             "price": 12999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -872,6 +1065,8 @@ export const products: ProductObj[] = [
             "rating": 3.66,
             "price": 10999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -881,6 +1076,8 @@ export const products: ProductObj[] = [
             "rating": 2.69,
             "price": 13999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mens-watches"
           },
           {
@@ -890,6 +1087,8 @@ export const products: ProductObj[] = [
             "rating": 4.99,
             "price": 99.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -899,6 +1098,8 @@ export const products: ProductObj[] = [
             "rating": 4.15,
             "price": 129.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -908,6 +1109,8 @@ export const products: ProductObj[] = [
             "rating": 3.47,
             "price": 549.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -917,6 +1120,8 @@ export const products: ProductObj[] = [
             "rating": 3.68,
             "price": 79.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -926,6 +1131,8 @@ export const products: ProductObj[] = [
             "rating": 4.62,
             "price": 99.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -935,6 +1142,8 @@ export const products: ProductObj[] = [
             "rating": 4.15,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -944,6 +1153,8 @@ export const products: ProductObj[] = [
             "rating": 3.62,
             "price": 99.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -953,6 +1164,8 @@ export const products: ProductObj[] = [
             "rating": 2.74,
             "price": 349.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -962,6 +1175,8 @@ export const products: ProductObj[] = [
             "rating": 4.24,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -971,6 +1186,8 @@ export const products: ProductObj[] = [
             "rating": 3.62,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -980,6 +1197,8 @@ export const products: ProductObj[] = [
             "rating": 4.43,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -989,6 +1208,8 @@ export const products: ProductObj[] = [
             "rating": 3.55,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -998,6 +1219,8 @@ export const products: ProductObj[] = [
             "rating": 3.88,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -1007,6 +1230,8 @@ export const products: ProductObj[] = [
             "rating": 2.78,
             "price": 499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/tv-studio-camera-pedestal/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "mobile-accessories"
           },
           {
@@ -1016,6 +1241,8 @@ export const products: ProductObj[] = [
             "rating": 4.91,
             "price": 3999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/generic-motorcycle/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "motorcycle"
           },
           {
@@ -1025,6 +1252,8 @@ export const products: ProductObj[] = [
             "rating": 3.98,
             "price": 8999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/kawasaki-z800/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "motorcycle"
           },
           {
@@ -1034,6 +1263,8 @@ export const products: ProductObj[] = [
             "rating": 2.97,
             "price": 14999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/motogp-ci.h1/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "motorcycle"
           },
           {
@@ -1043,6 +1274,8 @@ export const products: ProductObj[] = [
             "rating": 2.53,
             "price": 2999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/scooter-motorcycle/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "motorcycle"
           },
           {
@@ -1052,6 +1285,8 @@ export const products: ProductObj[] = [
             "rating": 3.94,
             "price": 7499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/motorcycle/sportbike-motorcycle/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "motorcycle"
           },
           {
@@ -1061,6 +1296,8 @@ export const products: ProductObj[] = [
             "rating": 3.19,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "skin-care"
           },
           {
@@ -1070,6 +1307,8 @@ export const products: ProductObj[] = [
             "rating": 4.51,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "skin-care"
           },
           {
@@ -1079,6 +1318,8 @@ export const products: ProductObj[] = [
             "rating": 3.16,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "skin-care"
           },
           {
@@ -1088,6 +1329,8 @@ export const products: ProductObj[] = [
             "rating": 2.83,
             "price": 199.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1097,6 +1340,8 @@ export const products: ProductObj[] = [
             "rating": 3.41,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1106,6 +1351,8 @@ export const products: ProductObj[] = [
             "rating": 4.12,
             "price": 1099.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1115,6 +1362,8 @@ export const products: ProductObj[] = [
             "rating": 2.51,
             "price": 899.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1124,6 +1373,8 @@ export const products: ProductObj[] = [
             "rating": 3.94,
             "price": 249.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1133,6 +1384,8 @@ export const products: ProductObj[] = [
             "rating": 3.51,
             "price": 399.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1142,6 +1395,8 @@ export const products: ProductObj[] = [
             "rating": 4.25,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1151,6 +1406,8 @@ export const products: ProductObj[] = [
             "rating": 4.2,
             "price": 149.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1160,6 +1417,8 @@ export const products: ProductObj[] = [
             "rating": 3.7,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1169,6 +1428,8 @@ export const products: ProductObj[] = [
             "rating": 4.58,
             "price": 349.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1178,6 +1439,8 @@ export const products: ProductObj[] = [
             "rating": 3.3,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1187,6 +1450,8 @@ export const products: ProductObj[] = [
             "rating": 4.4,
             "price": 499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1196,6 +1461,8 @@ export const products: ProductObj[] = [
             "rating": 3.06,
             "price": 699.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1205,6 +1472,8 @@ export const products: ProductObj[] = [
             "rating": 3.5,
             "price": 249.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1214,6 +1483,8 @@ export const products: ProductObj[] = [
             "rating": 3.6,
             "price": 299.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1223,6 +1494,8 @@ export const products: ProductObj[] = [
             "rating": 4.26,
             "price": 499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "smartphones"
           },
           {
@@ -1232,6 +1505,8 @@ export const products: ProductObj[] = [
             "rating": 4.91,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1241,6 +1516,8 @@ export const products: ProductObj[] = [
             "rating": 2.57,
             "price": 8.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1250,6 +1527,8 @@ export const products: ProductObj[] = [
             "rating": 3.96,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1259,6 +1538,8 @@ export const products: ProductObj[] = [
             "rating": 4.66,
             "price": 14.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1268,6 +1549,8 @@ export const products: ProductObj[] = [
             "rating": 4.6,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1277,6 +1560,8 @@ export const products: ProductObj[] = [
             "rating": 3.53,
             "price": 12.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1286,6 +1571,8 @@ export const products: ProductObj[] = [
             "rating": 3.17,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1295,6 +1582,8 @@ export const products: ProductObj[] = [
             "rating": 4.69,
             "price": 44.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1304,6 +1593,8 @@ export const products: ProductObj[] = [
             "rating": 4.73,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1313,6 +1604,8 @@ export const products: ProductObj[] = [
             "rating": 2.85,
             "price": 5.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1322,6 +1615,8 @@ export const products: ProductObj[] = [
             "rating": 3.28,
             "price": 17.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/football/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1331,6 +1626,8 @@ export const products: ProductObj[] = [
             "rating": 4.3,
             "price": 9.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1340,6 +1637,8 @@ export const products: ProductObj[] = [
             "rating": 4.41,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/iron-golf/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1349,6 +1648,8 @@ export const products: ProductObj[] = [
             "rating": 4.66,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/metal-baseball-bat/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1358,6 +1659,8 @@ export const products: ProductObj[] = [
             "rating": 4.06,
             "price": 6.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-ball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1367,6 +1670,8 @@ export const products: ProductObj[] = [
             "rating": 4.03,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/tennis-racket/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1376,6 +1681,8 @@ export const products: ProductObj[] = [
             "rating": 3.84,
             "price": 11.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sports-accessories/volleyball/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sports-accessories"
           },
           {
@@ -1385,6 +1692,8 @@ export const products: ProductObj[] = [
             "rating": 4.41,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sunglasses"
           },
           {
@@ -1394,6 +1703,8 @@ export const products: ProductObj[] = [
             "rating": 3.86,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sunglasses"
           },
           {
@@ -1403,6 +1714,8 @@ export const products: ProductObj[] = [
             "rating": 4.55,
             "price": 34.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sunglasses"
           },
           {
@@ -1412,6 +1725,8 @@ export const products: ProductObj[] = [
             "rating": 2.79,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/party-glasses/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sunglasses"
           },
           {
@@ -1421,6 +1736,8 @@ export const products: ProductObj[] = [
             "rating": 3.02,
             "price": 22.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/sunglasses/sunglasses/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "sunglasses"
           },
           {
@@ -1430,6 +1747,8 @@ export const products: ProductObj[] = [
             "rating": 3.18,
             "price": 499.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tablets"
           },
           {
@@ -1439,6 +1758,8 @@ export const products: ProductObj[] = [
             "rating": 4.68,
             "price": 599.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tablets"
           },
           {
@@ -1448,6 +1769,8 @@ export const products: ProductObj[] = [
             "rating": 3.72,
             "price": 349.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tablets"
           },
           {
@@ -1457,6 +1780,8 @@ export const products: ProductObj[] = [
             "rating": 4.17,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tops/blue-frock/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tops"
           },
           {
@@ -1466,6 +1791,8 @@ export const products: ProductObj[] = [
             "rating": 4.77,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tops"
           },
           {
@@ -1475,6 +1802,8 @@ export const products: ProductObj[] = [
             "rating": 2.72,
             "price": 34.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tops/gray-dress/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tops"
           },
           {
@@ -1484,6 +1813,8 @@ export const products: ProductObj[] = [
             "rating": 3.23,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tops/short-frock/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tops"
           },
           {
@@ -1493,6 +1824,8 @@ export const products: ProductObj[] = [
             "rating": 4.05,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/tops/tartan-dress/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "tops"
           },
           {
@@ -1502,6 +1835,8 @@ export const products: ProductObj[] = [
             "rating": 4.05,
             "price": 28999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/300-touring/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "vehicle"
           },
           {
@@ -1511,6 +1846,8 @@ export const products: ProductObj[] = [
             "rating": 2.58,
             "price": 32999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/charger-sxt-rwd/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "vehicle"
           },
           {
@@ -1520,6 +1857,8 @@ export const products: ProductObj[] = [
             "rating": 2.65,
             "price": 24999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/dodge-hornet-gt-plus/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "vehicle"
           },
           {
@@ -1529,6 +1868,8 @@ export const products: ProductObj[] = [
             "rating": 4.07,
             "price": 36999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/durango-sxt-rwd/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "vehicle"
           },
           {
@@ -1538,6 +1879,8 @@ export const products: ProductObj[] = [
             "rating": 3.62,
             "price": 31999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/vehicle/pacifica-touring/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "vehicle"
           },
           {
@@ -1547,6 +1890,8 @@ export const products: ProductObj[] = [
             "rating": 2.92,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-bags"
           },
           {
@@ -1556,6 +1901,8 @@ export const products: ProductObj[] = [
             "rating": 4.92,
             "price": 129.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-bags"
           },
           {
@@ -1565,6 +1912,8 @@ export const products: ProductObj[] = [
             "rating": 2.71,
             "price": 599.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-bags"
           },
           {
@@ -1574,6 +1923,8 @@ export const products: ProductObj[] = [
             "rating": 3.36,
             "price": 39.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/white-faux-leather-backpack/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-bags"
           },
           {
@@ -1583,6 +1934,8 @@ export const products: ProductObj[] = [
             "rating": 2.89,
             "price": 59.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-bags/women-handbag-black/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-bags"
           },
           {
@@ -1592,6 +1945,8 @@ export const products: ProductObj[] = [
             "rating": 3.64,
             "price": 129.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-dresses"
           },
           {
@@ -1601,6 +1956,8 @@ export const products: ProductObj[] = [
             "rating": 3.05,
             "price": 89.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-dresses"
           },
           {
@@ -1610,6 +1967,8 @@ export const products: ProductObj[] = [
             "rating": 4.52,
             "price": 79.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-dresses"
           },
           {
@@ -1619,6 +1978,8 @@ export const products: ProductObj[] = [
             "rating": 4.88,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-dresses"
           },
           {
@@ -1628,6 +1989,8 @@ export const products: ProductObj[] = [
             "rating": 4.48,
             "price": 179.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-dresses/marni-red-&-black-suit/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-dresses"
           },
           {
@@ -1637,6 +2000,8 @@ export const products: ProductObj[] = [
             "rating": 3.96,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-jewellery"
           },
           {
@@ -1646,6 +2011,8 @@ export const products: ProductObj[] = [
             "rating": 3.57,
             "price": 24.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-jewellery"
           },
           {
@@ -1655,6 +2022,8 @@ export const products: ProductObj[] = [
             "rating": 4.4,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-jewellery"
           },
           {
@@ -1664,6 +2033,8 @@ export const products: ProductObj[] = [
             "rating": 2.53,
             "price": 19.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-shoes"
           },
           {
@@ -1673,6 +2044,8 @@ export const products: ProductObj[] = [
             "rating": 4.92,
             "price": 79.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-shoes"
           },
           {
@@ -1682,6 +2055,8 @@ export const products: ProductObj[] = [
             "rating": 3.26,
             "price": 49.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-shoes"
           },
           {
@@ -1691,6 +2066,8 @@ export const products: ProductObj[] = [
             "rating": 3.05,
             "price": 29.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-shoes"
           },
           {
@@ -1700,6 +2077,8 @@ export const products: ProductObj[] = [
             "rating": 3.25,
             "price": 34.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-shoes/red-shoes/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-shoes"
           },
           {
@@ -1709,6 +2088,8 @@ export const products: ProductObj[] = [
             "rating": 2.93,
             "price": 4999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-watches"
           },
           {
@@ -1718,6 +2099,8 @@ export const products: ProductObj[] = [
             "rating": 3.83,
             "price": 15999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-watches"
           },
           {
@@ -1727,6 +2110,8 @@ export const products: ProductObj[] = [
             "rating": 2.86,
             "price": 10999.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-watches"
           },
           {
@@ -1736,6 +2121,8 @@ export const products: ProductObj[] = [
             "rating": 4.24,
             "price": 799.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-watches"
           },
           {
@@ -1745,6 +2132,8 @@ export const products: ProductObj[] = [
             "rating": 3.52,
             "price": 129.99,
             "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
+            "inCart": false,
+            "quantity": 0,
             "category": "womens-watches"
           }
         ]
