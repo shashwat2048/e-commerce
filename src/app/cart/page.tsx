@@ -106,7 +106,7 @@ export default function page() {
           <button className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 rounded mt-4 transition">
             Proceed to Buy
           </button>
-          <Link href="/products" className="block text-blue-600 mt-4 text-sm hover:underline">
+          <Link href="/" className="block text-blue-600 mt-4 text-sm hover:underline">
             Continue Shopping
           </Link>
         </div>
