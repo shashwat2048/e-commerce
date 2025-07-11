@@ -1,12 +1,13 @@
 import { products } from "@/constants/data";
 import Image from "next/image"; 
 import { notFound } from "next/navigation";
-type PageProps =  {
+import { PageProps } from "../../../../.next/types/app/products/[id]/page";
+type ProductProps =  {
     params:{
         id : string,
     }
-}
-export default async function Page({params}:PageProps){
+} & PageProps
+export default async function Page({params}:ProductProps){
     const prod = await params;
     const id = parseInt(prod.id);
     const item = products.find(function(p){

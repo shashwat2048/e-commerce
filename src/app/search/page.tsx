@@ -1,5 +1,6 @@
 import Card from "@/components/card";
 import { products } from "@/constants/data";
+import { PageProps } from "../../../.next/types/app/search/page";
 
 type SearchPageProps = {
     searchParams: {
@@ -7,8 +8,8 @@ type SearchPageProps = {
         min: string,
         max: string,
         rating: string
-    }
-}
+    } 
+} & PageProps
 export default async function SearchPage({ searchParams }: SearchPageProps) {
     const searchq = await searchParams
     const {q="", min, max, rating} = searchq;
