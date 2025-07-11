@@ -1,6 +1,7 @@
 import Card from "@/components/card";
 import { products } from "@/constants/data";
 import { PageProps } from "../../../.next/types/app/search/page";
+import { notFound } from "next/navigation";
 
 type SearchPageProps = {
     searchParams: {
@@ -30,6 +31,11 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     if(rating){
         results = results.filter(p => Math.floor(p.rating) >= parseInt(rating));
     }
+
+    if(results.length === 0){
+        return notFound();
+    }
+
     return (
         <div className="p-2">
             <h2 className="text-2xl font-semibold m-2">Showing results for query : {q}</h2>
