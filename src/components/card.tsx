@@ -1,7 +1,9 @@
 import { ProductObj } from "@/types";
+import Link from "next/link";
 
 export default function Card ({p}:{p:ProductObj}){
     return(
+      <Link href={`/products/${p.id}`}>
         <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-white p-4">
         <img
           className="w-full h-64 object-contain bg-gray-100 rounded-md"
@@ -37,5 +39,6 @@ export default function Card ({p}:{p:ProductObj}){
           
         </div>
       </div>
+      </Link>
     );
 }

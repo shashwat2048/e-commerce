@@ -11,15 +11,21 @@ export default function Layout({ children }: Readonly<{
     const searchTerm = searchParams.get("q") || "";
     const minAmt = searchParams.get("min") || "";
     const maxAmt = searchParams.get("max") || "";
+    const minRating = searchParams.get("rating") || "";
 
     const[min, setMin] = useState(minAmt);
     const[max, setMax] = useState(maxAmt);
+    const[rating, setRating] = useState(minRating);
 
     function handleMin(event: React.ChangeEvent<HTMLInputElement>) {
         setMin(event.target.value);
     }
     function handleMax(event: React.ChangeEvent<HTMLInputElement>) {
         setMax(event.target.value);
+    }
+    function handleRating(event: React.ChangeEvent<HTMLSelectElement>) {
+        setRating(event.target.value);
+        handleGo();
     }
 
     function handleGo(){
@@ -33,6 +39,9 @@ export default function Layout({ children }: Readonly<{
         if(searchTerm){
             url = url + "&q=" + searchTerm ;
         }
+        if(rating){
+            url = url + "&rating=" + rating;
+        }
         
         router.push(url);
     }
@@ -43,6 +52,13 @@ export default function Layout({ children }: Readonly<{
                 <div className="flex flex-col gap-2 p-2">
                     <input className="border-2 border-gray-500 p-1 rounded-lg" onChange={(e)=>{handleMin(e)}} type="number" name="min" value={min} placeholder="enter min value"/>
                     <input className="border-2 border-gray-500 p-1 rounded-lg" onChange={(e)=>{handleMax(e)}} type="number" name="max" value={max} placeholder="enter max amount"/>
+                    <select className="border-2 border-gray-500 p-1 rounded-lg" name="rating" id="rating" value={rating} onChange={handleRating}>
+                        <option value="" defaultChecked>Select min rating</option>
+                        <option value="1">1+</option>
+                        <option value="2">2+</option>
+                        <option value="3">3+</option>
+                        <option value="4">4+</option>
+                    </select>
                     <button className="shadow-lg p-1 rounded-lg bg-[#FFAE42]"  type="submit" onClick={handleGo}>Go</button>
                 </div>
             </aside>
