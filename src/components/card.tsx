@@ -1,5 +1,6 @@
 import { ProductObj } from "@/types";
 import Link from "next/link";
+import Image from "next/image"; // Added Image import
 import AddToCartBtn from "./addToCartBtn";
 
 export default function Card ({p}:{p:ProductObj}){
@@ -7,10 +8,12 @@ export default function Card ({p}:{p:ProductObj}){
       
         <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-white p-4">
         <Link href={`/products/${p.id}`}>
-        <img
+        <Image
           className="w-full h-64 object-contain bg-gray-100 rounded-md"
           src={p.thumbnail}
           alt={p.title}
+          width={300}
+          height={256}
         />
         </Link>
         <div className="mt-4">

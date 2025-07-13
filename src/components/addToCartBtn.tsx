@@ -13,8 +13,21 @@ export default function AddToCartBtn({ item }: { item: ProductObj }) {
 
   function handleAdd() {
     const cartItems = JSON.parse(localStorage.getItem("products") || "[]");
-    cartItems.push({ ...item, inCart: true });
+    const prevItem:ProductObj = cartItems.find(function(e:ProductObj){
+      return e.id === item.id;
+    })
+    if(prevItem){
+      {
+        prevItem.quantity += 1; 
+      }
+    }
+    else{
+      cartItems.push({ ...item, inCart: true, quantity:1});
+    }
+    
     localStorage.setItem("products", JSON.stringify(cartItems));
+    // Dispatch custom event to update cart count
+    window.dispatchEvent(new Event('cartUpdated'));
     setInCart(true);
   }
 
@@ -22,6 +35,8 @@ export default function AddToCartBtn({ item }: { item: ProductObj }) {
     let cartItems = JSON.parse(localStorage.getItem("products") || "[]");
     cartItems = cartItems.filter((cartItem: ProductObj) => cartItem.id !== item.id);
     localStorage.setItem("products", JSON.stringify(cartItems));
+    // Dispatch custom event to update cart count
+    window.dispatchEvent(new Event('cartUpdated'));
     setInCart(false);
   }
 

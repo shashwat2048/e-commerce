@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import { LoaderCircle } from 'lucide-react';
 
 function Filters({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -24,7 +25,6 @@ function Filters({ children }: { children: React.ReactNode }) {
   }
   function handleRating(event: React.ChangeEvent<HTMLSelectElement>) {
     setRating(event.target.value);
-    handleGo();
   }
 
   function handleGo() {
@@ -43,7 +43,7 @@ function Filters({ children }: { children: React.ReactNode }) {
         <div className="flex flex-col gap-2 p-2">
           <input className="border-2 border-gray-500 p-1 rounded-lg" onChange={handleMin} type="number" name="min" value={min} placeholder="enter min value"/>
           <input className="border-2 border-gray-500 p-1 rounded-lg" onChange={handleMax} type="number" name="max" value={max} placeholder="enter max amount"/>
-          <select name="rating" id="rating" value={rating} onChange={handleRating}>
+          <select className="border-2 border-gray-500 p-1 rounded-lg" name="rating" id="rating" value={rating} onChange={handleRating}>
             <option value="">Select min rating</option>
             <option value="1">1+</option>
             <option value="2">2+</option>
@@ -60,7 +60,7 @@ function Filters({ children }: { children: React.ReactNode }) {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <Suspense fallback={<div>Loading filters...</div>}>
+    <Suspense fallback={<div className="flex justify-center items-center h-screen w-screen"><LoaderCircle className="animate-spin" /></div>}>
       <Filters>{children}</Filters>
     </Suspense>
   );

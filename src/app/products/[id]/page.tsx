@@ -1,19 +1,30 @@
-import { products } from "@/constants/data";
 import Image from "next/image"; 
 import { notFound } from "next/navigation";
 import { PageProps } from "../../../../.next/types/app/products/[id]/page";
 import AddToCartBtn from "@/components/addToCartBtn";
+import { getProductById } from "@/app/utils/api";
 type ProductProps =  {
     params:{
         id : string,
     }
 } & PageProps
+
+
+
+export async function generateMetadata({params}:ProductProps) {
+  const prod = await params;
+  const item = await getProductById(prod.id);
+  if (!item) {
+      notFound();
+    }
+  else return {
+    title: item.title ? `${item.title}` : "Product",
+  };
+}
+
 export default async function Page({params}:ProductProps){
     const prod = await params;
-    const id = parseInt(prod.id);
-    const item = products.find(function(p){
-        if(p.id == id) return p;
-    })
+    const item = await getProductById(prod.id);
     if (!item) {
         notFound();
       }

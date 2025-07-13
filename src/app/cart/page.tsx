@@ -6,9 +6,7 @@ import Link from "next/link";
 import { nanoid } from "nanoid";
 import { ProductObj } from "@/types";
 
-
-
-export default function page() {
+export default function CartPage() { // Changed from 'page' to 'CartPage'
   const [cartItems, setCartItems] = useState<ProductObj[]>([]);
   const [total, setTotal] = useState(0);
 
@@ -27,6 +25,7 @@ export default function page() {
       0
     );
     setTotal(totalAmount);
+    window.dispatchEvent(new Event('cartUpdated'));
   }, [cartItems]);
 
   const updateQuantity = (id: number, delta: number) => {
@@ -56,7 +55,7 @@ export default function page() {
           ) : (
             cartItems.map((item) => (
               <div
-                key= {nanoid()}
+                key={nanoid()}
                 className="flex flex-col md:flex-row gap-4 items-center border-b pb-4"
               >
                 <Image
